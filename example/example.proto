@@ -4,7 +4,7 @@ package example;
 
 import "tagger/tagger.proto";
 
-option go_package = "github.com/srikrsna/protoc-gen-gotag/example";
+option go_package = "github.com/riftbit/protoc-gen-gotag/example";
 
 message Example {
     string with_new_tags = 1 [(tagger.tags) = "graphql:\"withNewTags,optional\"" ];

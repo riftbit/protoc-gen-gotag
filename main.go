@@ -5,7 +5,7 @@ import (
 	pgsgo "github.com/lyft/protoc-gen-star/lang/go"
 	"google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/srikrsna/protoc-gen-gotag/module"
+	"github.com/riftbit/protoc-gen-gotag/module"
 )
 
 func main() {
